@@ -46,11 +46,7 @@ var first_theme = [
 ];
 
 function generateThemes() {
-  var random1 = Math.floor(Math.random() * months.length);
-  var random2 = Math.floor(Math.random() * months.length);
-  var random3 = Math.floor(Math.random() * months.length);
-  var random4 = Math.floor(Math.random() * months.length);
-  var random5 = Math.floor(Math.random() * months.length);
+  var random1 = Math.floor(Math.random() * first_theme.length);
   
   firstObj.outerHTML=first_theme[random1];
 }
