@@ -1,9 +1,3 @@
-var firstObj = document.getElementById('theme1');
-var secondObj = document.getElementById('theme2');
-var thirdObj = document.getElementById('theme3');
-var fourthObj = document.getElementById('theme4');
-var fifthObj = document.getElementById('theme5');
-
 var first_theme = [
   'Каким путём человек идёт к самому себе?',
   'Любовь как путь самопознания.',
@@ -46,6 +40,12 @@ var first_theme = [
 ];
 
 function generateThemes() {
+  var firstObj = document.getElementById('theme1');
+  var secondObj = document.getElementById('theme2');
+  var thirdObj = document.getElementById('theme3');
+  var fourthObj = document.getElementById('theme4');
+  var fifthObj = document.getElementById('theme5');
+  
   var random1 = Math.floor(Math.random() * first_theme.length);
   
   firstObj.outerHTML=first_theme[random1];
