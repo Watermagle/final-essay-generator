@@ -48,5 +48,5 @@ function generateThemes() {
   
   var random1 = Math.floor(Math.random() * first_theme.length);
   
-  firstObj.outerHTML='<p id="theme1">' + first_theme[random1] + '</p>';
+  firstObj.outerHTML='<p id="theme1">1) ' + first_theme[random1] + '</p>';
 }
